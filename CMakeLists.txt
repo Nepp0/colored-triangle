@@ -9,7 +9,7 @@ pkg_check_modules(GLEW REQUIRED glew)
 # Find OpenGL
 find_package(OpenGL REQUIRED)
 
-# Add your source files
+# Add source files
 add_executable(main main.cpp)
 
 # Include directories
