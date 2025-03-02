@@ -19,7 +19,7 @@ pkgs.mkShell {
     pkgs.renderdoc # Graphics debugger
     pkgs.libGL
   ];
-  # Environment variables (optional)
+  # Environment variables
   shellHook = ''
     export XDG_SESSION_TYPE=wayland
     export WAYLAND_DISPLAY=wayland-1
